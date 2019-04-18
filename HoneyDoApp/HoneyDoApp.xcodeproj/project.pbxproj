@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96501E682267E5D3003C61BC /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96501E672267E5D3003C61BC /* AddTaskController.swift */; };
+		967854D1226795D800F332D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967854D0226795D800F332D7 /* AppDelegate.swift */; };
+		967854D3226795D800F332D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967854D2226795D800F332D7 /* ViewController.swift */; };
+		967854D6226795D800F332D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967854D4226795D800F332D7 /* Main.storyboard */; };
+		967854D8226795DB00F332D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967854D7226795DB00F332D7 /* Assets.xcassets */; };
+		967854DB226795DB00F332D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967854D9226795DB00F332D7 /* LaunchScreen.storyboard */; };
+		967854E6226795DB00F332D7 /* HoneyDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967854E5226795DB00F332D7 /* HoneyDoAppTests.swift */; };
+		967854F1226795DB00F332D7 /* HoneyDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967854F0226795DB00F332D7 /* HoneyDoAppUITests.swift */; };
+		967855012267975000F332D7 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967855002267975000F332D7 /* TaskCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		967854E2226795DB00F332D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967854C5226795D800F332D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967854CC226795D800F332D7;
+			remoteInfo = HoneyDoApp;
+		};
+		967854ED226795DB00F332D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967854C5226795D800F332D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967854CC226795D800F332D7;
+			remoteInfo = HoneyDoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96501E632267E58A003C61BC /* HoneyDoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoneyDoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		96501E672267E5D3003C61BC /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
+		967854CD226795D800F332D7 /* HoneyDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967854D0226795D800F332D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		967854D2226795D800F332D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		967854D5226795D800F332D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		967854D7226795DB00F332D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		967854DA226795DB00F332D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		967854DC226795DB00F332D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967854E1226795DB00F332D7 /* HoneyDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967854E5226795DB00F332D7 /* HoneyDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyDoAppTests.swift; sourceTree = "<group>"; };
+		967854E7226795DB00F332D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967854EC226795DB00F332D7 /* HoneyDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967854F0226795DB00F332D7 /* HoneyDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyDoAppUITests.swift; sourceTree = "<group>"; };
+		967854F2226795DB00F332D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967855002267975000F332D7 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967854CA226795D800F332D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967854DE226795DB00F332D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967854E9226795DB00F332D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967854C4226795D800F332D7 = {
+			isa = PBXGroup;
+			children = (
+				96501E672267E5D3003C61BC /* AddTaskController.swift */,
+				967854CF226795D800F332D7 /* HoneyDoApp */,
+				967854E4226795DB00F332D7 /* HoneyDoAppTests */,
+				967854EF226795DB00F332D7 /* HoneyDoAppUITests */,
+				967854CE226795D800F332D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		967854CE226795D800F332D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967854CD226795D800F332D7 /* HoneyDoApp.app */,
+				967854E1226795DB00F332D7 /* HoneyDoAppTests.xctest */,
+				967854EC226795DB00F332D7 /* HoneyDoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967854CF226795D800F332D7 /* HoneyDoApp */ = {
+			isa = PBXGroup;
+			children = (
+				967854D0226795D800F332D7 /* AppDelegate.swift */,
+				967854D2226795D800F332D7 /* ViewController.swift */,
+				967854D4226795D800F332D7 /* Main.storyboard */,
+				967855002267975000F332D7 /* TaskCell.swift */,
+				967854D7226795DB00F332D7 /* Assets.xcassets */,
+				967854D9226795DB00F332D7 /* LaunchScreen.storyboard */,
+				967854DC226795DB00F332D7 /* Info.plist */,
+				96501E632267E58A003C61BC /* HoneyDoApp-Bridging-Header.h */,
+			);
+			path = HoneyDoApp;
+			sourceTree = "<group>";
+		};
+		967854E4226795DB00F332D7 /* HoneyDoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				967854E5226795DB00F332D7 /* HoneyDoAppTests.swift */,
+				967854E7226795DB00F332D7 /* Info.plist */,
+			);
+			path = HoneyDoAppTests;
+			sourceTree = "<group>";
+		};
+		967854EF226795DB00F332D7 /* HoneyDoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				967854F0226795DB00F332D7 /* HoneyDoAppUITests.swift */,
+				967854F2226795DB00F332D7 /* Info.plist */,
+			);
+			path = HoneyDoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967854CC226795D800F332D7 /* HoneyDoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967854F5226795DB00F332D7 /* Build configuration list for PBXNativeTarget "HoneyDoApp" */;
+			buildPhases = (
+				967854C9226795D800F332D7 /* Sources */,
+				967854CA226795D800F332D7 /* Frameworks */,
+				967854CB226795D800F332D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoneyDoApp;
+			productName = HoneyDoApp;
+			productReference = 967854CD226795D800F332D7 /* HoneyDoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		967854E0226795DB00F332D7 /* HoneyDoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967854F8226795DB00F332D7 /* Build configuration list for PBXNativeTarget "HoneyDoAppTests" */;
+			buildPhases = (
+				967854DD226795DB00F332D7 /* Sources */,
+				967854DE226795DB00F332D7 /* Frameworks */,
+				967854DF226795DB00F332D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967854E3226795DB00F332D7 /* PBXTargetDependency */,
+			);
+			name = HoneyDoAppTests;
+			productName = HoneyDoAppTests;
+			productReference = 967854E1226795DB00F332D7 /* HoneyDoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		967854EB226795DB00F332D7 /* HoneyDoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967854FB226795DB00F332D7 /* Build configuration list for PBXNativeTarget "HoneyDoAppUITests" */;
+			buildPhases = (
+				967854E8226795DB00F332D7 /* Sources */,
+				967854E9226795DB00F332D7 /* Frameworks */,
+				967854EA226795DB00F332D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967854EE226795DB00F332D7 /* PBXTargetDependency */,
+			);
+			name = HoneyDoAppUITests;
+			productName = HoneyDoAppUITests;
+			productReference = 967854EC226795DB00F332D7 /* HoneyDoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967854C5226795D800F332D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sagor, Michael A";
+				TargetAttributes = {
+					967854CC226795D800F332D7 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					967854E0226795DB00F332D7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 967854CC226795D800F332D7;
+					};
+					967854EB226795DB00F332D7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 967854CC226795D800F332D7;
+					};
+				};
+			};
+			buildConfigurationList = 967854C8226795D800F332D7 /* Build configuration list for PBXProject "HoneyDoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967854C4226795D800F332D7;
+			productRefGroup = 967854CE226795D800F332D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967854CC226795D800F332D7 /* HoneyDoApp */,
+				967854E0226795DB00F332D7 /* HoneyDoAppTests */,
+				967854EB226795DB00F332D7 /* HoneyDoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967854CB226795D800F332D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967854DB226795DB00F332D7 /* LaunchScreen.storyboard in Resources */,
+				967854D8226795DB00F332D7 /* Assets.xcassets in Resources */,
+				967854D6226795D800F332D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967854DF226795DB00F332D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967854EA226795DB00F332D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967854C9226795D800F332D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967855012267975000F332D7 /* TaskCell.swift in Sources */,
+				967854D3226795D800F332D7 /* ViewController.swift in Sources */,
+				96501E682267E5D3003C61BC /* AddTaskController.swift in Sources */,
+				967854D1226795D800F332D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967854DD226795DB00F332D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967854E6226795DB00F332D7 /* HoneyDoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967854E8226795DB00F332D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967854F1226795DB00F332D7 /* HoneyDoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		967854E3226795DB00F332D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967854CC226795D800F332D7 /* HoneyDoApp */;
+			targetProxy = 967854E2226795DB00F332D7 /* PBXContainerItemProxy */;
+		};
+		967854EE226795DB00F332D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967854CC226795D800F332D7 /* HoneyDoApp */;
+			targetProxy = 967854ED226795DB00F332D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		967854D4226795D800F332D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967854D5226795D800F332D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		967854D9226795DB00F332D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967854DA226795DB00F332D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967854F3226795DB00F332D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		967854F4226795DB00F332D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		967854F6226795DB00F332D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneyDoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelsagor.HoneyDoApp.HoneyDoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HoneyDoApp/HoneyDoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		967854F7226795DB00F332D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneyDoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelsagor.HoneyDoApp.HoneyDoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HoneyDoApp/HoneyDoApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		967854F9226795DB00F332D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneyDoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelsagor.HoneyDoApp.HoneyDoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneyDoApp.app/HoneyDoApp";
+			};
+			name = Debug;
+		};
+		967854FA226795DB00F332D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneyDoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelsagor.HoneyDoApp.HoneyDoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneyDoApp.app/HoneyDoApp";
+			};
+			name = Release;
+		};
+		967854FC226795DB00F332D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneyDoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelsagor.HoneyDoApp.HoneyDoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoneyDoApp;
+			};
+			name = Debug;
+		};
+		967854FD226795DB00F332D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneyDoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelsagor.HoneyDoApp.HoneyDoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoneyDoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967854C8226795D800F332D7 /* Build configuration list for PBXProject "HoneyDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967854F3226795DB00F332D7 /* Debug */,
+				967854F4226795DB00F332D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967854F5226795DB00F332D7 /* Build configuration list for PBXNativeTarget "HoneyDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967854F6226795DB00F332D7 /* Debug */,
+				967854F7226795DB00F332D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967854F8226795DB00F332D7 /* Build configuration list for PBXNativeTarget "HoneyDoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967854F9226795DB00F332D7 /* Debug */,
+				967854FA226795DB00F332D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967854FB226795DB00F332D7 /* Build configuration list for PBXNativeTarget "HoneyDoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967854FC226795DB00F332D7 /* Debug */,
+				967854FD226795DB00F332D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967854C5226795D800F332D7 /* Project object */;
+}
